@@ -2,7 +2,7 @@ const fashionData = [
     {
         title: "스트릿 (Street)",
         tag: "Youth & Freedom",
-        image: "images/street.png"
+        image: "images/street.png",
         desc: "길거리 문화(스케이트보드, 힙합 등)에서 유래한 자유롭고 힙한 스타일입니다. 개성 있는 그래픽과 오버사이즈 실루엣이 돋보입니다.",
         domestic: [
             { name: "디스이즈네버댓", desc: "서울 스트리트 씬의 글로벌 선구자로, 감각적인 로고 플레이와 빈티지한 무드를 결합합니다.", logo: "TN", url: "https://thisisneverthat.com" },
