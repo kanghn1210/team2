@@ -2,7 +2,7 @@ const fashionData = [
     {
         title: "스트릿 (Street)",
         tag: "Youth & Freedom",
-        image: "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&q=80&w=800",
+        image: "images/street.png"
         desc: "길거리 문화(스케이트보드, 힙합 등)에서 유래한 자유롭고 힙한 스타일입니다. 개성 있는 그래픽과 오버사이즈 실루엣이 돋보입니다.",
         domestic: [
             { name: "디스이즈네버댓", desc: "서울 스트리트 씬의 글로벌 선구자로, 감각적인 로고 플레이와 빈티지한 무드를 결합합니다.", logo: "TN", url: "https://thisisneverthat.com" },
@@ -90,7 +90,7 @@ const fashionData = [
     {
         title: "애슬레저 (Athleisure)",
         tag: "Sporty & Healthy",
-        image: "https://images.unsplash.com/photo-1483721310020-03333e577076?auto=format&fit=crop&q=80&w=800",
+        image: "images/athleisure.png",
         desc: "운동(Athletic)과 여가(Leisure)의 합성어로, 스포티한 운동복을 일상에서도 세련되게 소화하는 스타일입니다.",
         domestic: [
             { name: "젝시믹스", desc: "트렌디한 핏과 강력한 기능성으로 한국 애슬레저 시장을 선도하는 대표 브랜드입니다.", logo: "XM", url: "https://www.xexymix.com" },
@@ -153,7 +153,7 @@ const fashionData = [
     {
         title: "프레피 (Preppy)",
         tag: "Ivy League Heritage",
-        image: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?auto=format&fit=crop&q=80&w=800",
+        image: "images/preppy.png",
         desc: "미국 아이비리그 학생들의 교복 스타일에서 유래했습니다. 지적이고 단정하며 격조 있는 캐주얼을 지향합니다.",
         domestic: [
             { name: "해지스", desc: "브리티시 감성을 한국적인 실용주의로 풀어내어 프레피 무드를 대중화했습니다.", logo: "HZ", url: "https://www.lfmall.co.kr" }
@@ -179,7 +179,7 @@ const fashionData = [
     {
         title: "히피 (Hippie)",
         tag: "Bohemian Spirit",
-        image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=800",
+        image: "images/hippie.png",
         desc: "자유와 평화를 지향하는 정신이 깃든 스타일입니다. 에스닉한 패턴과 자연스러운 실루엣이 평온함을 줍니다.",
         domestic: [
             { name: "보헤미안 서울", desc: "빈티지한 무드와 고유의 자유로운 실루엣으로 확고한 아이덴티티를 가진 브랜드입니다.", logo: "BS", url: "https://bohemianseoul.com" }
@@ -192,7 +192,7 @@ const fashionData = [
     {
         title: "펑크 (Punk)",
         tag: "Raw Energy",
-        image: "https://images.unsplash.com/photo-1605812883399-52f82433d712?auto=format&fit=crop&q=80&w=800",
+        image: "images/punk.png",
         desc: "주류 문화에 저항하는 강력한 에너지를 표현합니다. 찢어진 디테일과 가죽, 메탈 장식 등이 거친 매력을 발산합니다.",
         domestic: [
             { name: "99%IS-", desc: "디자이너 바조우가 이끄는 전 세계적인 펑크 레이블로 저항 정신을 세계에 알렸습니다.", logo: "99", url: "https://99percentis.com" }
