@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FASHION ARCHIVE | 13가지 스타일 가이드</title>
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">ARCHIVE.</div>
+        <div class="nav-menu">
+            <span>CURATION</span>
+            <span>BRANDS</span>
+            <span>ABOUT</span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-label">2024 FASHION INDEX</span>
+            <h1>STYLING <span>INDEX.</span></h1>
+            <p class="hero-desc">패션의 홍수 속에서 길을 잃지 않도록, 13가지 독보적인 스타일과 그 정점에 있는 실제 브랜드들을 큐레이션했습니다.</p>
+            <a href="#main-feed" class="hero-btn">스타일 탐험하기</a>
+        </div>
+        <div class="hero-visual">
+            <div class="visual-img-container">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1200"
+                    alt="Hero Image">
+            </div>
+        </div>
+        <div class="scroll-down">
+            <div class="scroll-line"></div>
+            SCROLL TO DISCOVER
+        </div>
+    </header>
+
+    <main id="main-feed"></main>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <a href="#" target="_blank" class="modal-brand-logo-link" style="text-decoration:none; color:inherit;"
+                id="modal-link">
+                <div class="modal-brand-logo" id="modal-logo">?</div>
+                <span class="visit-hint">GO TO OFFICIAL SITE</span>
+                <h3 class="modal-brand-name" id="modal-name">Brand Name</h3>
+            </a>
+            <p class="modal-brand-desc" id="modal-desc">Description</p>
+            <button class="modal-action-btn" id="modal-close-btn">CLOSE</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 THE FASHION ARCHIVE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
